@@ -20,7 +20,7 @@ void FiveStarCaoCao::initValue()
 	speed = 30;
 	strategyPower = 30;
 	attackPower = 50;
-	name = QString::fromLocal8Bit("ÎåĞÇ²Ü²Ù");
+	name = QString::fromLocal8Bit("äº”æ˜Ÿæ›¹æ“");
 }
 
 
