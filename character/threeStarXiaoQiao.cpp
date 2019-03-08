@@ -20,7 +20,7 @@ void ThreeStarXiaoQiao::initValue()
 	speed = 45;
 	strategyPower = 65;
 	attackPower = 18;
-	name = QString::fromLocal8Bit("ÈıĞÇĞ¡ÇÇ");
+	name = QString::fromLocal8Bit("ä¸‰æ˜Ÿå°ä¹”");
 }
 
 void ThreeStarXiaoQiao::normalAttack(int& attackP)
