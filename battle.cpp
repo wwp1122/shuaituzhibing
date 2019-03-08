@@ -222,7 +222,7 @@ void Battle::fight(bool square, std::shared_ptr<Character>& attacker, std::share
 			QString::fromLocal8Bit("受到来自我方：") + attackerName +
 			QString::fromLocal8Bit("的物理伤害") + QString::number(normalAttack) +
 			QString::fromLocal8Bit("点和") +
-			QString::fromLocal8Bit("魔法伤害") + QString::number(normalAttack) + QString::fromLocal8Bit("点\n");
+			QString::fromLocal8Bit("魔法伤害") + QString::number(strategyP) + QString::fromLocal8Bit("点\n");
 		blood = blood - normalAttack - strategyP;
 		if ((blood) <= 0)
 		{
@@ -238,7 +238,7 @@ void Battle::fight(bool square, std::shared_ptr<Character>& attacker, std::share
 			QString::fromLocal8Bit("受到来自敌方：") + attackerName +
 			QString::fromLocal8Bit("的物理伤害") + QString::number(normalAttack) +
 			QString::fromLocal8Bit("点和") +
-			QString::fromLocal8Bit("魔法伤害") + QString::number(normalAttack) + QString::fromLocal8Bit("点\n");
+			QString::fromLocal8Bit("魔法伤害") + QString::number(strategyP) + QString::fromLocal8Bit("点\n");
 		blood = blood - normalAttack - strategyP;
 		if ((blood) <= 0)
 		{
