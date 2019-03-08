@@ -20,7 +20,7 @@ void FourStarCaoCao::initValue()
 	speed = 20;
 	strategyPower = 15;
 	attackPower = 28;
-	name = QString::fromLocal8Bit("ËÄĞÇ²Ü²Ù");
+	name = QString::fromLocal8Bit("å››æ˜Ÿæ›¹æ“");
 }
 
 void FourStarCaoCao::normalAttack(int& attackP)
