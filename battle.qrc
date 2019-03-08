@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Battle">
+        <file>picture/vs.jpg</file>
+        <file>picture/level_3.png</file>
+        <file>picture/level_4.png</file>
+        <file>picture/level_5.png</file>
+        <file>picture/level3.png</file>
+        <file>picture/level4.png</file>
+        <file>picture/level5.png</file>
+    </qresource>
+</RCC>
